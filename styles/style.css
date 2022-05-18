@@ -1,0 +1,261 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	background-image: url(../img/Header.jpeg);
+	position: relative;
+}
+.container{
+	width: 100%;
+	display: flex;
+}
+.logo{
+	display: flex;
+	padding-top: 0px;
+	height: 70px;
+	width: 20%;
+}
+.logo img{
+	height: 100%;
+	width: 100%;
+}
+.navbar{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	margin-left: 20px;
+	width: 70%;
+}
+.nav-ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-li {
+	padding-top: 8px;
+	background-color: rgb(0, 163, 35);
+	height: 40px;
+	width: 30%;
+	border-radius: 35px 35px 35px 35px;
+}
+.nav-li:hover{
+	background-color: red;
+}
+.nav-li a{
+	display: flex;
+	justify-content: center;
+	color: black;
+	font-size: 20px;
+}
+/* .nav-ul:hover .nav-li{
+	background-color: red;
+} */
+
+body{
+	background-image: url(../img/background.jpeg);
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+}
+.baneri{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-top: 0px;
+	background-color: rgb(11, 75, 131);
+	height: 50px;
+}
+.baneri p{
+	font-size: 30px;
+	color: rgb(0, 163, 35)	;
+}
+.topics-div{
+	margin: 0 auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	width: 60%;
+	background-color: rgb(0, 163, 35);
+}
+
+.bigdaddy{
+	width: 100%;
+	margin-top: 20px;
+	/* background-color: wheat; */
+}
+
+.row{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: space-around;
+	/* background-color: rgb(166, 255, 0); */
+}
+.row1{
+	padding-top: 5px;
+}
+.rowa{
+	width: 45%;
+	height: 100%;	
+}
+/* .row1a2{
+	width: 45%;
+	height: 100%;
+} */
+.kvadrati{
+	width: 100%;
+	height: 100%;	
+
+}
+.kvadrati1{
+	background-image: url(../img/image\ tralala.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.kvadrati2{
+	background-image: url(../img/image\ tralala.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.statiebi1{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	/* background-color: rgb(17, 0, 255); */
+}
+.statiebi2{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	/* background-color: rgb(17, 0, 255); */
+}
+/* .statiebi3{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(17, 0, 255);
+} */
+
+.statia{
+	width: 45%;
+	height: 100%;	
+}
+.statia1{
+	background-color: white;
+}
+.statia2{
+	background-color: white;
+}
+.statiap{
+	text-align: center;
+}
+.statiaA{
+	display: flex;
+	justify-content: flex-end;
+	color: red;
+}
+.statiaA:hover{
+	text-decoration: underline;
+}
+.row2{
+	margin-top: 30px;
+}
+.kvadrati3{
+	background-image: url(../img/image\ tralala.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.kvadrati4{
+	background-image: url(../img/image\ tralala.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+footer{
+	height:120px;
+	width: 100%;
+	background-color: black;
+	margin-top: 20px;
+}
+
+@media only screen and (min-width:768px){
+	header{
+		height: 100px;
+	}
+	.container{
+		height: 100%;
+	}
+	.logo{
+		height: 100%;
+		width: 15%;
+	}
+	.navbar{
+		width: 100%;
+		margin-right: 20px;
+	}
+	.nav-li{
+		padding-top: 0;
+		display: flex;
+		height: 60px;
+		align-items: center;
+		justify-content: center;
+		
+	}
+	.nav-li a{
+		font-size: 30px;
+
+	}
+	.baneri{
+		height: 100px;
+	}
+	.baneri p{
+		font-size: 40px;
+	}
+	.topics-div{
+		height: 50px;
+		width: 60%;
+		align-items: center;
+	}
+	.topics-div h2{
+		font-size: 40px;
+	}
+	.row{
+		height: 250px;
+	}
+	footer{
+		height: 140px;
+		margin-top: 0px;
+	}
+	.statiebi1{
+		height: 130px;
+	}
+	.statiebi2{
+		height: 130px;
+	}
+	.statiap{
+		margin-top: 10px;
+		font-size: 25px;
+	}
+	.statiaA{
+		margin-top: 10px;
+		font-size: 25px;
+	}
+
+	
+}
